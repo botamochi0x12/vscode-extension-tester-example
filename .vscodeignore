@@ -1,3 +1,6 @@
 test-resources/**
 *.gif
 .test-extensions/**
+vscodes*/**
+.github/**
+.vscode/**
