@@ -23,6 +23,10 @@
         "--mocha_config",
         "${workspaceFolder}/src/ui-test/.mocharc-debug.js"
       ],
+      "outFiles": [
+        "${workspaceFolder}/out/**/*.(m|c|)js",
+        "!**/node_modules/**"
+      ],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
     },
